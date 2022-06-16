@@ -1,0 +1,19 @@
+Cara kerja Next.js adalah melakukan proses rendering website pada server (pre-rendering) sehingga
+ ketika browser meminta sebuah halaman, 
+server langsung merespon dengan memunculkan halaman berformat HTML.
+
+Hasilnya, konten website bisa ditampilkan secara instan dan pengguna tidak perlu menunggu proses rendering.
+
+Hal tersebut berbeda dengan React.js di mana proses rendering website terjadi pada browser (client-side rendering).
+ Artinya, jika ukuran website cukup besar, otomatis proses rendering akan memakan waktu yang lama.
+
+Server Side Rendering (SSR)
+Cara kerja Next.js pada server side rendering adalah server mengubah package 
+React dan JavaScript menjadi HTML setiap kali browser memanggil halaman tersebut.
+
+Static Site Generator (SSG)
+
+Pada sistem static site generator, setiap browser memanggil halaman tersebut, 
+server tidak perlu men-generate HTML lagi. Alasannya, server melakukan generate halaman HTML pada tahap build, 
+yaitu tahap konversi kode program menjadi website utuh. 
+
